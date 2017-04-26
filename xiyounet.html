@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>西邮网协</title>
+	<style>
+	*{padding:0;margin:0;font-family:Arial, Helvetica, sans-serif}
+	#wrap{width:94%;margin:auto;position:relative;}
+	#header{height:100px;width:100%;background-color:black;color:white;}
+	#aaa{border:3px solid gray;}
+	#header a img{background-color:black;position:absolute;top:30px;left:100px;width:40px;height:40px;}
+    #header span{width:150px;position:absolute;top:30px;left:150px;color:white;}
+	#headr .timu{text-decoration:none;}
+	#header .liebiao{position:absolute;left:560px;top:30px;}
+	#header .liebiao ul{list-style-type:none;}
+	#header .liebiao ul li{float:left;margin:10px;}
+	#header .liebiao li a{text-decoration:none;color:gray;font-weight:bold;}
+	#header .liebiao li a:hover,#header .liebiao li:hover a{text-decoration:none;color:white;}
+	#header .teshu{border:1px solid gray;padding:10px;position:relative;top:-10px;border-radius:5px;}
+	#header .teshu:hover{border:1px solid white;}
+    .du{background-image:url(http://pic26.nipic.com/20130118/8378836_222846691375_2.jpg);width:auto;height:400px;
+    /*调整图片模糊度*/
+     filter:url(http://pic26.nipic.com/20130118/8378836_222846691375_2.jpg);filter:blur(5px);}
+     .zhu{position:absolute;top:250px;left:450px;color:white;width:450px;text-align:center;height:100px;}
+     .zhu ul{list-style-type:none;position:relative;top:20px;left:80px;}
+     .zhu ul li{float:left;border:3px solid gray;width:120px;height:30px;margin:10px;}
+     .zhu li a{text-decoration:none;display:block;padding-top:5px;color:white;}
+     .zhu ul li:hover{border:3px solid white;}
+     .content{height:260px;width:auto;}
+     .content h1,.content p{text-align:center;position:relative;top:100px;}
+     .content p{color:gray;}
+     .art{background-color:#E8E8E8;width:auto;height:350px;text-align:center;}
+     .art h2{position:relative;top:70px;}
+     .art .img{width:auto;height:auto;float:left;text-align:center;position:relative;left:0px;top:100px;margin:30px;}
+     .art .img img{width:80px;height:80px;}
+     .art .img .desc{width:240px;text-align:center;}
+     #mainbody{width:auto;height:300px;}
+     #mainbody h1{text-align:center;position:relative;top:50px;}
+     #mainbody .left{float:left;width:50%;}
+     #mainbody .right{float:right;width:50%;}
+     #mainbody .bbb{position:relative;top:90px;left:20px;padding:30px;}
+     .hou{width:auto;height:340px;}
+     .hou .left{float:left;width:550px;}
+     .hou .right{width:560px;float:left;position:relative;left:50px;top:0px;}
+     .hou .ccc{position:relative;left:50px;top:20px;}
+     .hou .left ul{position:relative;left:30px;top:-20px;}
+     .hou .left ul li{margin:20px 0px;}
+     .hou .right ul{position:relative;left:30px;top:-20px;}
+     .hou .right ul li{margin:20px 0px;}
+     #footer{width:auto;height:200px;background-color:#383838;position:relative;}
+     #footer .div1{width:345px;float:left;}
+     #footer .div2{width:240px;float:left;}
+     #footer .div3{width:180px;float:left;}
+     #footer .div4{width:470px;height:200px;float:left;}
+     .jiao1{position:relative;left:60px;top:40px;width:300px;color:#A8A8A8;}
+     .jiao2{position:relative;left:60px;top:40px;width:100px;text-transform:capitalize;color:#A8A8A8;}
+     .jiao2 img{width:40px;height:40px;}
+     .jiao3{position:relative;top:40px;width:150px;height:100px;color:#A8A8A8;}
+     .jiao3 ul{list-style-type:none;position:relative;top:10px;}
+     .jiao3 ul li{margin:10px 0;}
+     .jiao3 ul a{text-decoration:none;color:#A8A8A8;font-size:14px;}
+     .jiao4{position:relative;top:40px;color:#A8A8A8;width:469px;}
+     .jiao4 a{text-decoration:none;color:#A8A8A8;}
+     #footer a:hover{color:white;}
+     #footer h4{color:#D8D8D8;}
+     #footer p{font-size:14px;}
+     .wei{width:auto;height:50px;background-color:black;color:gray;}
+     .wei .ddd{font-size:15px;position:relative;top:15px;left:160px;}
+     .wei .eee{font-size:15px;position:relative;top:15px;float:right;right:160px;}
+     #footer #erweima{width:120px;height:120px;border-radius:5px;background-color:white;position:absolute;top:-55px;left:360px;text-align:center;border:1px solid black;z-index:2;display:none;}
+     #footer .erweima-border{width:0;height:0;position:absolute;left:50px;border-width:10px;border-style:solid;}
+     #footer .td-border{bottom:-20px;border-color:black transparent transparent transparent;}
+     #footer .td-background{bottom:-19px;border-color:white transparent transparent transparent;}
+     #footer #erweima img{width:100px;height:100px;position:relative;top:10px;}
+	</style> 
+	<script type="text/javascript">
+     function weixin()//显示二维码
+     {
+     	var aa=document.getElementById("erweima");
+        aa.style.display="block";
+      }
+     function haha()//隐藏二维码
+     {
+     	var aa=document.getElementById("erweima");
+        aa.style.display="none";
+      }
+     </script>
+</head>
+<body>
+<div id="wrap">
+<div id="aaa">
+	<div id="header">
+	<!--第一部分-->
+	<a href="#"><img src="../images/b68150ea2e47.jpg"/></a> 
+	<a class="timu" href="#"><span>Association of Network Technology</span></a>
+	    <div class="liebiao"> 
+				<ul>
+					<li><a style="color:white;" href="#">主页</a></li>
+					<li><a href="#">专栏</a></li>
+					<li><a href="#">华三杯报名</a></li>
+					<li><a href="#">CTF</a></li>
+					<li><a href="#">关于</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">Slide</a></li>
+					<li class="teshu"><a href="#">2016纳新快速报名通道</a></li>
+				</ul>
+		</div>		
+	</div>
+	<!--第二部分-->
+		    <div class="du"></div>
+			<div class="zhu">
+				<h2 style="text-transform:uppercase;margin:10px;font-size:40px">idea,share,beyond</h2>
+				<p>专注于为技术爱好者提供友好的环境，构建技术友好的大家庭。</p>
+				<p>从 0 到 1，为自己创造无限的机会与价值。</p>
+				<ul>
+				<li><a href="#" target="_blank" style="color:gray;">了解更多</a></li>
+				<li style="background-color:orange;border:3px solid orange;"><a href="#" target="_blank">加入我们</a></li>
+				</ul>	
+			</div>
+</div>
+			<!--第三部分-->
+		    <div class="content"> 
+				<h1 style="margin:5px;">最好的地方，来证明自己</h1>
+				<p>自 2010 年 9 月成立以来，已经吸引了众多技术爱好者以及各路牛人的加入。</p>
+				<p>从 0 到 1，为自己创造无限的机会与价值。网协 6 年,感谢所有并肩同行的人</p>
+				<p style="font-weight:bold;">也许下一位就是你！！！</p>
+			</div>
+			<!--第四部分-->
+			<div class="art"> 
+				<h2>let's strat</h2>
+					<div class="img"> 
+						<a href="http://open.xiyouant.org/"><img src="../images/58PIC1f58PICvCb_1024.jpg"></a>
+						<div class="desc"> 
+						<h4>开放资源</h4> 
+						<br/>
+						<p style="font-size:15px;">协会内部开放的电子书以及相关文档和报告资源</p> 
+						</div>
+					</div> 
+					<div class="img"> 
+						<a href="#"><img src="../images/71Y58PICnHE_1024.png"></a>
+						<div class="desc"> 
+						<h4>文档</h4> 
+						<br/>
+						<p style="font-size:15px;">历届的相关管理文档以及相关规范</p> 
+						</div>
+					</div> 
+					<div class="img"> 
+						<a href="#" target="_blank"><img src="../images/62c58PIC5TI_1024.jpg"></a>
+						<div class="desc"> 
+						<h4>项目平台</h4> 
+						<br/>
+						<p style="font-size:15px;">在这里你会看到,我们对外开放的相关项目,了解我们在做什么</p> 
+						</div>
+					</div>  
+					<div class="img"> 
+						<a href="#"><img src="../images/smiley-for-facebook_318-37312.jpg"></a>
+						<div class="desc"> 
+						<h4>快速登入</h4> 
+						<br/>
+						<p style="font-size:15px;">网协图书馆内部成员快速登入通道</p> 
+						</div>
+					</div>    
+			</div>
+	<div id="mainbody"> 
+	<h1>Frequently Asked Questions</h1>
+	  <div class="bbb">
+			<div class="left">
+			<p style="font-size:24px;">协会内部成员的方向目前都有什么?</p><br/>
+			<p>协会目前的方向目前大致归为以下几类:</p>
+			<p style="font-weight:bold;">Web 「全端」、技术运维、 信息安全以及视觉设计</p> 
+			</div>
+			<div class="right"> 
+			<p style="font-size:24px;">你们管理模式是怎样的?</p><br/>
+		     <p>我们不会一味标榜管理上如何如何宽松，毕竟任何一个方向都是有压力的，任务是需要及时交付的。成员之间相互合作或者是共同完成一项任务，是要相互满足期望值的，不合适的人是要离开的。除了一些<b>硬规定</b>之外，来协会的时间在合理范围内是弹性的，每个人对自己负责的工作是有话语权的，成员无论级别是相互尊重的，一切基于技术上的讨论都是平等的。管理方式上以让大家能更好地学习和进步为标准。</p> 
+		     </div>
+	  </div>
+    </div>
+    <div class="hou">
+         <div class="ccc">
+			    <div class="left"> 
+			    <p style="font-size:24px;">一些福利：</p><br/>
+				<ul> 
+				<li>偶尔会有小惊喜</li>
+				<li>不定期的安排内部的技术分享,以及户外活动进行团队建设。</li>
+				<li>不定期的组织和鼓励成员去参加其他组织的知识分享以及开源社区的相关活动。</li> 
+				<li>我们为每一个成员提供<b>无需任何配置的全局无缝科学上网和国外站点加速</b>。旨为从细节开始, 提高大家的效率和生产力。</li>
+				</ul>
+				</div>
+			    <div class="right"> 
+			    <p style="font-size:24px;">文化及价值观：</p><br/>
+			    <ul>
+			    <li> 
+			    <b>开放:</b>对内，我们确保每一个人都能了解我们做每件事的原因。以及整个协会内部的运作方式和相关机制；对外，我们尽量开放相关的资源、分享相关的知识。</li>
+			    <li><b>平等和尊重</b>:我们确保每个人对自己负责的工作都有绝对的话语权，成员间彼此无论级别都应是相互尊重的。做为一个成熟的个体，保持对他人的尊重，也是成员间彼此共事的基本要求。</li> 
+			    <li><b>Be the One</b>:我们希望并鼓励每一个成员都能够独立思考,无论是在哪个组别、位兼何职都应该承担领袖的角色,发起和推动那些认为正确的事情，而不是随波逐流地盲从普遍做法。</li>
+			    </ul> 
+			    </div> 
+		 </div>	    
+    </div>
+    <div id="footer"> 
+	    <div class="div1"> 
+		    <div class="jiao1">
+		    <h4>联系我们</h4><br/>
+		    <p>陕西省西安市长安区西安邮电大学 东区 FZ130</p><br/>
+		    <p><b>邮箱</b>:<a>admin@xiyouant.org</a></p>
+		    </div>
+	    </div>
+	    <div class="div2"> 
+										    <!--微信二维码-->
+										    <div id="erweima"> 
+										    <img src="../images/mmexport1482565791890.jpg">
+										    <div class="erweima-border td-border"></div>
+										    <div class="erweima-border td-background"></div>
+										    </div>
+		    <div class="jiao2"> 
+		    <h4>follow us</h4><br/>
+		    <img src="../images/wx.png" onmouseover="weixin()" onmouseout="haha()">
+		    <a href="https://github.com/xiyouant" target="_blank"><img src="../images/62c58PIC5TI_1024.jpg"></a>
+		    </div> 
+	    </div>
+	    <div class="div3">
+		    <div class="jiao3"> 
+		    <h4>友情赞助</h4> 
+		    <ul>
+		    <li><a href="#" target="_blank">我要赞助</a></li>
+		    <li><a href="#" target="_blank">查看捐赠者列表</a></li>
+		    </ul>
+		    </div> 
+	    </div>
+	    <div class="div4"> 
+			 <div class="jiao4"> 
+			 <h4>内容许可</h4><br/>
+			 <p>本站由 <a href="https://www.digitalocean.com/?refcode=3c8422b30f9d">DigitalOcean</a> 提供服务器支持<a href="http://www.qiniu.com/"> 七牛</a> 提供 CDN 存储服务</p><br/>
+			 <p>除特别说明外，用户内容均采用 <a href="https://creativecommons.org/licenses/by-sa/3.0/cn/" target="_blank">知识共享署名-相同方式共享 3.0 中国大陆许可协议</a>进行许可</p>
+			 </div> 
+	    </div>
+    </div>
+    <div class="wei"> 
+    <span class="ddd">Copyright © 2010-2016 西安邮电大学计算机院网络科技协会.</span>
+    <span class="eee">陕ICP备15013578号 当前呈现版本 15.11.4</span>
+    </div>
+</div>
+</body>
+</html>
